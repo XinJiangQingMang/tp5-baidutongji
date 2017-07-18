@@ -9,7 +9,7 @@
 namespace Melodic\Tongji;
 
 use think\Cache;
-
+use think\Config;
 
 class BaiduTongji
 {
@@ -29,6 +29,9 @@ class BaiduTongji
 
     public function __construct($config = array())
     {
+         if (Config::has('tongji')){
+            $config = Config::get('tongji');
+        }
         $this->config = array_merge($this->config, $config);
 
         $login = $this->login();
