@@ -6,7 +6,7 @@
  * Time: 12:50
  */
 
-namespace mcmf\BaiduTongji;
+namespace Melodic\Tongji;
 
 use think\Cache;
 
