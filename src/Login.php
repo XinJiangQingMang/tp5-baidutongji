@@ -1,6 +1,6 @@
 <?php
 
-namespace mcmf\BaiduTongji;
+namespace Melodic\Tongji;
 
 class Login
 {
