@@ -12,6 +12,9 @@
     "autoload": {
         "psr-4": {
             "Melodic\\Tongji\\": "src/"
-        }
+        },
+        "files": [
+            "src/helper.php"
+        ]
     }
 }
