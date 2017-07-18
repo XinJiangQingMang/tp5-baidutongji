@@ -14,7 +14,7 @@
             "Melodic\\Tongji\\": "src/"
         },
         "files": [
-            "src/helper.php"
+            "src/helpers.php"
         ]
     }
 }
