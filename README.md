@@ -20,7 +20,7 @@
 namespace app\Index\Controllers;
 
 use think\Controller;
-use use Melodic\Tongji\BaiduTongji;
+use Melodic\Tongji\BaiduTongji;
 
 class Index extends Controller
 {
